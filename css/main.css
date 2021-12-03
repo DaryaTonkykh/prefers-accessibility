@@ -66,6 +66,10 @@ html {
  animation: none;
  }
 
+ @@media (prefers-color-scheme: dark) {
+  .banner {
+  background-color: black;
+  }
 /* stylelint-disable media-feature-name-no-unknown */
 
 /**
